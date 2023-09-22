@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Harmattan', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #010C1B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+
+.logo {
+    text-align: center;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.logo p {
+    margin-top: -60px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo h1 {
+    font-size: 60px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input {
+    font-size: 18px;
+    background-color: #202020;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 55px;
+    padding-left: 20px;
+}
+
+.criar-conta {
+    text-align: center;
+}
+
+.criar-conta a {
+    color: #10BEF4;
+}
+
+.botao-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #193F88;
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
